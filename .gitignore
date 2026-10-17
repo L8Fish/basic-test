@@ -69,3 +69,20 @@ cover/
 Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
+
+# Dependencies
+node_modules/
+
+# Firebase runtime caches & logs
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+firestore-debug.log
+ui-debug.log
+
+# Emulator state exports (if saving local data dumps)
+.firebase/emulators/
+
+# Secret config/service account keys
+*serviceAccountKey*.json
+*service-account*.json
